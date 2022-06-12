@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="main.css" />
+        <script src="https://unpkg.com/phosphor-icons"></script>
+        <title>BTU Classroom</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div>
+                <header>
+                    <nav id="nav">
+                        <div class="left-nav-full">
+                            <a class="left-nav" href="index.html">
+                                <img
+                                src="images/btu logo_202103171612.png"
+                                alt="Logo of BTU"
+                                class="BTU-LOGO"
+                                width="40px"
+                                />
+                                <p>Classroom</p>
+                            </a>
+                            <div class="hamburger-menu" id="burger" onclick="menu()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="40" y1="64" x2="216" y2="64" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="40" y1="192" x2="216" y2="192" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg>
+                            </div>
+                        </div>
+
+                        <div class="right-nav" id="right-nav">
+                            <div class="right-nav-price" onclick="priceDropdown()">
+                                <span class="price-span">1125.00</span>
+                                <svg
+                                    class="caret-down"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    fill="#000000"
+                                    viewBox="0 0 256 256"
+                                >
+                                    <rect width="25" height="25" fill="none"></rect>
+                                    <polyline
+                                        points="208 96 128 176 48 96"
+                                        fill="none"
+                                        stroke="gray"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="30"
+                                    ></polyline>
+                                </svg>
+                            </div>
+                            <div class="right-nav-message">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    fill="#000000"
+                                    viewBox="0 0 256 256"
+                                >
+                                    <rect
+                                        width="256"
+                                        height="256"
+                                        fill="none"
+                                    ></rect>
+                                    <path
+                                        d="M32,56H224a0,0,0,0,1,0,0V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56A0,0,0,0,1,32,56Z"
+                                        fill="gray"
+                                        stroke="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="24"
+                                    ></path>
+                                    <polyline
+                                        points="224 56 128 144 32 56"
+                                        fill="none"
+                                        stroke="#000000"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="16"
+                                    ></polyline>
+                                </svg>
+                                <span class="message-span">94</span>
+                            </div>
+                            <div class="right-nav-name">
+                                <span class="name-span">სანდრო ნადირაძე</span>
+                            </div>
+                            <div class="right-nav-shutdown">
+                                <a href="login.html">
+                                    <i class="ph-power" ></i>
+                                </a>
+                            </div>
+                            <div class="right-nav-language">
+                                <span class="langugae-span">ქართული</span>
+                                <svg
+                                    class="caret-down"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    fill="#000000"
+                                    viewBox="0 0 256 256"
+                                >
+                                    <rect width="25" height="25" fill="none"></rect>
+                                    <polyline
+                                        points="208 96 128 176 48 96"
+                                        fill="gray"
+                                        stroke="gray"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="30"
+                                    ></polyline>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </nav>
+                </header>
+
+                <main>
+                    <aside class="main-left">
+                        <div class="main-left-1">
+                            2021-2022 წლის გაზაფხულის სემესტრი
+                        </div>
+                        <section class="left-section-1 left-section">
+                            <table cellspacing="0">
+                                <tr>
+                                    <th>მართვა</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="index.html">არჩეული კურსები</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="mainInformation.html">ჩემი კურსები</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="myPrograms.html">ჩემი პროგრამები</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="statements.html">განცხადებები</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="border-bottom: 1px solid lightgray"><a href="contactPage.html">კონტაქტის გვერდი</a></td>
+                                </tr>
+                            </table>
+                        </section>
+
+                        <section class="left-section-2 left-section">
+                            <table cellspacing="0">
+                                <tr>
+                                    <th>პირადი ინფორმაცია</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">რეზიუმე</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">სასწავლო ბარათი</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">რეკომენდაცია</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">ცნობები</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="border-bottom: 1px solid lightgray"><a href="#">რეიტინგი</a></td>
+                                </tr>
+                            </table>
+                        </section>
+
+                        <section class="left-section-3 left-section">
+                            <table cellspacing="0">
+                                <tr>
+                                    <th>შეტყობინებები</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#"
+                                            >სოციალურად დაუცველი სტუდენტების
+                                            დაფინანსების წესი</a
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td-red">
+                                        <a class="td-red" href="#"
+                                            >2020-2023 სასწავლო წლის აკადემიური
+                                            კალენდარი და სწავლების აუდიტორიული
+                                            ფორმატი</a
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="td-red" href="#"
+                                            >2021-2002 ს/წ შემოდგომის სემესტრის
+                                            სტიპენდიანტთა სია</a
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">ხშირად დასმული კითხვები</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="td-red" href="#"
+                                            >მნიშვნელოვანი ინფორმაცია დამატებითი
+                                            სემესტრების და დამატებითი კრედიტების
+                                            შესაძლებლობის შესახებ</a
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#"
+                                            >2021-2022 სასწავლო წლის აკადემიური
+                                            კალენდარი</a
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="td-red" href="#"
+                                            >მნიშვნელოვანი ინფორმაცია სტუდენტის
+                                            საკონტაქტო ტელეფონის შესახებ</a
+                                        >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border-bottom: 1px solid lightgray">
+                                        <a class="td-red" href="#"
+                                            >გაცდენილი შუალედური
+                                            გამოცდა/ქვიზი/საკონტროლო წერა აღდგენის
+                                            შესახებ ინფორმაცია</a
+                                        >
+                                    </td>
+                                </tr>
+                            </table>
+                        </section>
+                    </aside>
+
+                    <div class="main-right">
+                        <div>
+                            <h1>არჩეული კურსები</h1>
+                        </div>
+
+                        <div>
+                            <table class="content-table" cellspacing="0">
+                                <tr>
+                                    <th></th>
+                                    <th>კოდი</th>
+                                    <th>კურსის დასახელება</th>
+                                    <th>ქულა</th>
+                                    <th>მინ.კრედ</th>
+                                    <th>კრედ</th>
+                                </tr>
+                                <tr class="hoverable">
+                                    <td class="bull">&bull;</td>
+                                    <td>IT13GEN/0/0</td>
+                                    <td class="course">კიბერუსაფრთხოება</td>
+                                    <td>99</td>
+                                    <td>0</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="hoverable">
+                                    <td class="bull">&bull;</td>
+                                    <td>IT13GEN/0/0</td>
+                                    <td class="course">მონაცემთა სტრუქტურები და ალგორითმები (II, C)</td>
+                                    <td>99</td>
+                                    <td>0</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="hoverable">
+                                    <td class="bull">&bull;</td>
+                                    <td>IT-113.1GEN.IT13GEN/...</td>
+                                    <td class="course">ვებ პროგრამირება (Front End Development)</td>
+                                    <td>38</td>
+                                    <td>0</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="hoverable">
+                                    <td class="bull">&bull;</td>
+                                    <td>IT13GEN/0/0</td>
+                                    <td class="course">მონაცემთა ბაზების ადმინისტრირება (OCA)</td>
+                                    <td>99</td>
+                                    <td>0</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="hoverable">
+                                    <td class="bull">&bull;</td>
+                                    <td>0/IT-113.1.IT13/0</td>
+                                    <td class="course">ღრუბლოვანი სისტემები (Amazon web services)</td>
+                                    <td>99</td>
+                                    <td>0</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr class="hoverable">
+                                    <td></td>
+                                    <td colspan="4" style="text-align: right">სულ არჩეული კურსების კრედიტების ჯამი:</td>
+                                    <td>30</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </main>
+            </div>
+
+            <footer>
+                <div>
+                    <small>&#169 Clasroom - ბიზნესისა და ტექნოლოგიების უნივერსიტეტი</small>
+                    <small>შექმნილია ITDC-ს მიერ</small>
+                </div>
+            </footer>
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>

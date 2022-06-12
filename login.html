@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div>
+            <header>
+                <nav id="nav">
+                    <div class="left-nav-full">
+                        <a class="left-nav" href="index.html">
+                            <img
+                            src="images/btu logo_202103171612.png"
+                            alt="Logo of BTU"
+                            class="BTU-LOGO"
+                            width="40px"
+                            />
+                            <p>Classroom</p>
+                        </a>
+                        <div class="hamburger-menu" id="burger" onclick="menu()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="40" y1="64" x2="216" y2="64" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="40" y1="192" x2="216" y2="192" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg>
+                        </div>
+                    </div>
+
+                    <div class="right-nav" id="right-nav">
+                        <div class="right-nav-language">
+                            <span class="langugae-span">ქართული</span>
+                            <svg
+                                class="caret-down"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                fill="#000000"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect width="25" height="25" fill="none"></rect>
+                                <polyline
+                                    points="208 96 128 176 48 96"
+                                    fill="gray"
+                                    stroke="gray"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="30"
+                                ></polyline>
+                            </svg>
+                        </div>
+                    </div>
+
+                </nav>
+            </header>
+            <main class="login-register-main">
+                <div class="authenticate-outer">
+                    <div class="authenticate-inner-1">
+                        <h1>ავტორიზაცია</h1>
+                        <p>ავოტრიზაციისთვის გამოიყენეთ BTU-ს ელ.ფოსტა</p>
+                    </div>
+                    <div class="authenticate-inner-2">
+                        <form>
+                            <input type="email" placeholder="შეიყვანეთ ელ.ფოსტა" required/>
+                            <input type="password" placeholder="შეიყვანეთ პაროლი" required/>
+                        </form>
+                    </div>
+
+                    <div class="authenticate-inner-3">
+                        <button type="submit">შესვლა</button>
+                        <a href="index.html">კლასრუმზე გადასვლა</a>
+                        <a href="register.html">არ ხართ დარეგისტრირებული?</a>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <div>
+                <small>&#169 Clasroom - ბიზნესისა და ტექნოლოგიების უნივერსიტეტი</small>
+                <small>შექმნილია ITDC-ს მიერ</small>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
